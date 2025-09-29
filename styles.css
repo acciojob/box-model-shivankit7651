@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    text-align: center; /* center the blocks */
+    background-color: #fff;
+}
+
+/* Common block styling */
+.container div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%; /* makes it a circle */
+    margin: 10px;
+}
+
+/* Individual colors */
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
